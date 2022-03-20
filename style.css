@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Consolas, sans-serif;
+    user-select: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4a664f;
+}
+
+.inputBox {
+    position: relative;
+    width: 450px;
+}
+.inputBox h2 {
+    font-size: 28px;
+    color: #eed6a5;
+}
+span {
+    color: #c0cfb2;
+    text-shadow: 1px 1px #eed6a5 ;
+}
+::placeholder {
+    color: #8BA987;
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    border: none;
+    margin: 15px 0 10px;
+    background: transparent;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 24px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #8BA987;
+    box-shadow: -4px -4px 10px rgba(18, 41, 30, 1),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.07),
+    inset -4px -4px 10px rgba(18, 41, 30, 1), 4px 4px 10px rgba(0, 0, 0, 0.07) ;
+}
+ 
+.inputBox input::placeholder {
+    letter-spacing: 0;
+}
+
+button {
+    position: relative;
+    cursor: pointer;
+    color: #4a664f;
+    background-color:#eed6a5 ;
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.inputBox #btn:active {
+    background-color:#e4c380 ;
+    transform: scale(.98);
+}
